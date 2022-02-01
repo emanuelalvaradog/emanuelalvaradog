@@ -1,5 +1,5 @@
 <h1 align="center"> Hi, I'm Emanuel 👋 </h1>
-
+<hr>
 
 <!--
 **emanuelalvaradog/emanuelalvaradog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

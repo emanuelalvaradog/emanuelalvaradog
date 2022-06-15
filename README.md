@@ -36,6 +36,8 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   &nbsp;
+  <img src="https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white" />
+  &nbsp;
 </div>
 <hr>
 

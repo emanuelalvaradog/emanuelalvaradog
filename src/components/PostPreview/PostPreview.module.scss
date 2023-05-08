@@ -1,0 +1,24 @@
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  &Desc {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}

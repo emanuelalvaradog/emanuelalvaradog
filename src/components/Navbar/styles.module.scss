@@ -1,0 +1,21 @@
+.navActive {
+  font-weight: 700;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+   font-size: 1.4rem; 
+  }
+
+  &Active {
+    font-weight: 700;
+  }
+
+  &Link {
+    font-weight: 300;
+  }
+}

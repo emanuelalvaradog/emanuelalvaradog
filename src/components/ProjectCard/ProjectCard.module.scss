@@ -36,3 +36,26 @@
     
   }
 }
+
+@media(min-width: 640px) {
+  .project {
+    h2 {
+      font-size: 2.4rem;
+    }
+
+    &Desc {
+      &Tech{
+        gap: .8rem ;
+
+        p {
+          font-size: 1.6rem;
+        }
+
+        span {
+          font-size: 1.4rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

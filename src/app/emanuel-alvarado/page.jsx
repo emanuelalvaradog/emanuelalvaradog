@@ -18,9 +18,10 @@ const content = [
 export default function About() {
   return (
     <section className={styles.main}>
-      <Navbar />
-      <Bio description={description} content={content} />
-      <SocialMedia />
+      <div className={styles.mainContent}>
+        <Bio description={description} content={content} />
+        <SocialMedia />
+      </div>
     </section>
   );
 }

@@ -17,7 +17,6 @@ const sampleProject = {
 export default function page() {
   return (
     <section className={styles.main}>
-      <Navbar />
       <div className={styles.header}>
         <h1>Proyectos</h1>
         <div className={styles.headerDesc}>

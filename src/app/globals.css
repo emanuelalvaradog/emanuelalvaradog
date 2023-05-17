@@ -15,6 +15,8 @@ body {
 }
 
 html {
+  display: flex;
+  justify-content: center;
   font-size: 62.5%;
 }
 
@@ -27,8 +29,52 @@ a {
   text-decoration: none;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "menu content";
+    grid-template-columns: 0.3fr 0.7fr;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+
+    & > nav {
+      grid-area: menu;
+      justify-self: flex-end;
+    }
+  }
+
+  main {
+    width: 100%;
+    grid-area: content;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-start;
+    position: absolute;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    gap: 8rem;
+    & > nav {
+      justify-self: flex-end;
+    }
   }
 }

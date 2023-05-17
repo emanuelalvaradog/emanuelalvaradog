@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 import { usePathname } from "next/navigation";

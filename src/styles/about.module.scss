@@ -7,9 +7,28 @@
   gap: 4rem;
   min-height: 100vh;
 
+  &Content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
   hr {
     width: 100%;
   }
 }
 
 
+@media (min-width: 640px) {
+  .main {
+    position: absolute;
+    top: 5rem;
+    justify-content: center;
+  }
+}
+
+@media(min-width: 1280px) {
+  .main {
+    width: 50%;
+  }
+}

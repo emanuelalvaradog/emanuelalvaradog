@@ -6,4 +6,27 @@
   padding: 4rem;
   min-height: 100vh;
   gap: 4rem;
+
+  &Content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+@media(min-width: 640px){
+  .main {
+    width: 80%;
+    justify-content: center;
+
+    &Content {
+      gap: 6rem;
+    }
+  }
+}
+
+@media(min-width: 1280px){
+  .main {
+    width: 50%;
+  }
 }

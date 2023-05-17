@@ -13,28 +13,35 @@ const samplePost = {
 export default function page() {
   return (
     <section className={styles.main}>
-      <Navbar />
-      <div className={styles.header}>
-        <h1>Blog</h1>
-        <div className={styles.headerDesc}>
-          <p>
-            Mi camino hacia una vida de impacto: pensamientos y aprendizajes
-          </p>
-          <p>
-            Escribo para compartir mis aprendizajes y pensamientos en mi camino
-            a diseñar una vida que me ayude a impactar a millones de personas a
-            través de la tecnología.
-          </p>
+      <div className={styles.mainContent}>
+        <div className={styles.header}>
+          <h1>Blog</h1>
+          <div className={styles.headerDesc}>
+            <p>
+              Mi camino hacia una vida de impacto: pensamientos y aprendizajes
+            </p>
+            <p>
+              Escribo para compartir mis aprendizajes y pensamientos en mi
+              camino a diseñar una vida que me ayude a impactar a millones de
+              personas a través de la tecnología.
+            </p>
+          </div>
         </div>
+        <hr />
+        <section className={styles.posts}>
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+          <PostPreview {...samplePost} />
+        </section>
+        <SocialMedia />
       </div>
-      <hr />
-      <section className={styles.posts}>
-        <PostPreview {...samplePost} />
-        <PostPreview {...samplePost} />
-        <PostPreview {...samplePost} />
-        <PostPreview {...samplePost} />
-      </section>
-      <SocialMedia />
     </section>
   );
 }

@@ -6,6 +6,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 4rem;
 
   a {
    font-size: 1.4rem; 
@@ -17,5 +18,17 @@
 
   &Link {
     font-weight: 300;
+  }
+}
+
+@media(min-width: 640px) {
+  .nav {
+    width: fit-content;
+    flex-direction: column;
+    gap: .8rem;
+
+    a {
+      font-size: 1.6rem;
+    }
   }
 }

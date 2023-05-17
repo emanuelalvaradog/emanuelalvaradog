@@ -27,7 +27,25 @@
         }
 
         p {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 640px) {
+  .bio {
+    &Content {
+      &Desc {
+        h1 {
+          font-size: 3.2rem;
+        }
+        &P {
+          gap: 1.6rem; 
+          p {
+            font-size: 1.6rem;
+          }
         }
       }
     }

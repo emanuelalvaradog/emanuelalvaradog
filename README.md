@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> <a href="https://emanuelalvarado.com/emanuel-alvarado" target="_blank" noopener noreferrer> Hi, I'm  Emanuel  👋 </a> </h1>
+<hr>
 
-## Getting Started
+<h2 align="center">👨‍💻 About me 👨‍💻</h2> 
+<br>
+<p align="center">I am a software developer passionate about learning and teamwork. I am a true believer that technology is the best way to create change in our society. My goal is to change the lives of millions of people by creating technological solutions to major problems in Latin America. <br> <br> If we can inject the spark in others to generate a change, little by little we will improve as a whole. And when you have a team of people aligned to the same goal the results will be greater than expected.</p>
+<br>
 
-First, run the development server:
+<div align="center">
+  <a href="#">
+    <img src="https://github-readme-stats.vercel.app/api?username=emanuelalvaradog&theme=nord&show_icons=true" />  
+  </a>
+<div/>
+  
+<hr>
+<h2 align="center">🛠 Some technologies I use 🛠</h2>
+<br>
+<div display="flex" align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white" />
+  &nbsp;
+</div>
+<hr>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h2 align="center">🎯 Some projects 🎯</h2>
+<div display="flex" align="center">
+<a href="https://github.com/emanuelalvaradog/damsy-landing">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelalvaradog&repo=damsy-landing&theme=nord"/>  
+  </a>
+  <a href="https://github.com/Platzi-Master-C9/booking-ui">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Platzi-Master-C9&repo=booking-ui&theme=nord"/>  
+  </a>
+  <a href="https://github.com/emanuelalvaradog/netflix-clone">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelalvaradog&repo=netflix-clone&theme=nord"/>  
+  </a>
+  <a href="https://github.com/emanuelalvaradog/api-dev">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelalvaradog&repo=api-dev&theme=nord"/>  
+  </a>
+  
+</div>
+<br>
+<hr>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 align="center">🎵 Listend lately 🎵</h2>
+  <a href="https://open.spotify.com/user/31nuf4qhddbxdtkq6des33i5t2rm" >
+    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+  <br>
+  <a href="#">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31nuf4qhddbxdtkq6des33i5t2rm&cover_image=true&theme=novatorem&bar_color=714eb1&bar_color_cover=false" />
+  </a>

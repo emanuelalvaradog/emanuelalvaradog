@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
   padding: 4rem;
   min-height: 100vh;
@@ -16,7 +16,6 @@
   hr {
     width: 100%;
   }
-
 }
 
 .header {
@@ -46,6 +45,7 @@
 
 @media (min-width: 640px) {
   .main {
+    width: 90%;
     position: absolute;
     top: 10rem;
     justify-content: center;
@@ -62,8 +62,23 @@
   }
 }
 
+@media(min-width: 1024px) {
+  .main {
+    width: 70%;
+  }
+
+  .header {
+    h1 {
+      font-size: 3.6rem;
+    }
+    &Desc {
+      font-size: 1.8rem;
+    }
+  }
+}
+
 @media(min-width: 1280px) {
   .main {
-    width: 50%;
+    width: 55%;
   }
 }

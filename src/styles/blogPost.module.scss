@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 4rem;
+  
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: .2rem;
+  } 
+  
+  p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }  
+
+  hr {
+    width: 100%;
+  }
+
+  &Header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &Content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    h1, h2, h3 {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media(min-width: 640px) {
+  .main {
+    position: absolute;
+    top: 10rem;
+    justify-content: center;
+
+    h1 {
+      font-size: 3.2rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+  }  
+}
+
+@media(min-width: 1024px) {
+  .main {
+    width: 70%;
+    
+    h1 {
+      font-size: 3.6rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 1.7;
+    }
+
+    img {
+      width: 60%;
+    }
+    
+    &Content {
+      h2 {
+        font-size: 2.8rem;
+      }
+      
+      h3 {
+        font-size: 2.2rem;
+      }
+    }
+  }
+}
+
+@media(min-width: 1280px) {
+  .main {
+    width: 55%;
+
+    img {
+      width: 70%;
+    }
+  }
+}

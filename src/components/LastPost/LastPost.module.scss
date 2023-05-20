@@ -9,3 +9,11 @@
   }
 
 }
+
+@media(min-width: 1024px) {
+  .post {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

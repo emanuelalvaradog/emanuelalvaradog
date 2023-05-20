@@ -48,14 +48,33 @@
         gap: .8rem ;
 
         p {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
         }
 
         span {
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           font-weight: 300;
         }
       }
     }
   }
+}
+
+@media(min-width: 1280px) {
+  .project {
+    h2 {
+      font-size: 2.6rem;
+    }
+    &Desc {
+      &Tech {
+        p {
+          font-size: 1.8rem;
+        }
+
+        span {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  } 
 }

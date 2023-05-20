@@ -1,16 +1,22 @@
 "use client";
 
-import { Navbar, PostPreview, SocialMedia } from "@/components";
+import { PostPreview, SocialMedia } from "@/components";
 import styles from "@/styles/blog.module.scss";
+import { compareDesc, format, parseISO } from "date-fns";
+import { allPosts, Post } from "contentlayer/generated";
 
-const samplePost = {
-  title: "La carrera",
-  preview:
-    "En ocasiones he pensado que cualquier carrera o competencia se trata de ganarle a alguien más, pero vaya que estaba equivocado.",
-  date: "May 6 2023",
-};
+// const samplePost = {
+//   title: "La carrera",
+//   preview:
+//     "En ocasiones he pensado que cualquier carrera o competencia se trata de ganarle a alguien más, pero vaya que estaba equivocado.",
+//   date: "May 6 2023",
+// };
 
 export default function page() {
+  const posts = allPosts.sort((a, b) =>
+    compareDesc(parseISO(a.date), parseISO(b.date))
+  );
+
   return (
     <section className={styles.main}>
       <div className={styles.mainContent}>
@@ -29,16 +35,10 @@ export default function page() {
         </div>
         <hr />
         <section className={styles.posts}>
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
-          <PostPreview {...samplePost} />
+          {posts.map((post) => {
+            console.log({ post });
+            return <PostPreview key={post.title} {...post} />;
+          })}
         </section>
         <SocialMedia />
       </div>

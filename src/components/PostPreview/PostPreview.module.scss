@@ -32,3 +32,20 @@
     }
   }
 }
+
+@media(min-width: 1280px) {
+  .post {
+    h2 {
+      font-size: 3rem;
+    }
+    &Desc {
+      p {
+        font-size: 1.8rem;
+      }
+
+      span {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

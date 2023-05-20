@@ -4,3 +4,4 @@ export { LastPost } from "./LastPost/LastPost.jsx";
 export { SocialMedia } from "./SocialMedia/SocialMedia.jsx";
 export { PostPreview } from "./PostPreview/PostPreview.jsx";
 export { ProjectCard } from "./ProjectCard/ProjectCard.jsx";
+export { Mdx } from "./Mdx/Mdx.jsx";

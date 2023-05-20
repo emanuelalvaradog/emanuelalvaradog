@@ -1,0 +1,144 @@
+[
+  {
+    "title": "ExcelAI",
+    "description": "Desarrollé una web app que procesa lenguaje natural y crea formulas de excel usando inteligencia artificial usando NextJS, CSS, Firebase y Stripe",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/damsy-landing"
+      },
+      { "name": "Demo", "path": "https://damsy-landing.vercel-app" }
+    ],
+    "technologies": ["NextJS", "ReactJS", "CSS Modules", "Firebase", "Stripe"]
+  },
+
+  {
+    "title": "Netflix Clone",
+    "description": "Desarrollé un clon responsie de la interfaz de netflix implementando tecnologías como ExpressJS, Javascript, HTML y CSS para el estilo",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/netflix-clone"
+      },
+      {
+        "name": "Demo",
+        "path": "https://emanuelalvaradog.github.io/netflix-clone/"
+      }
+    ],
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "Javascript",
+      "ExpressJS",
+      "API Rest",
+      "GithubPages"
+    ]
+  },
+  {
+    "title": "E-Commerce ",
+    "description": "Desarrollé un API en la que se puede consumir información sobre productos de comercio electrónico creados aleatoriamente desde diferentes endpoints utilizando NodeJS, ExpressJS y FakerJS",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/api-dev"
+      },
+      {
+        "name": "Demo",
+        "path": "https://warm-caverns-03782.herokuapp.com/api/v1/products"
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "Heroku",
+      "FakerJS",
+      "JoiJS"
+    ]
+  },
+  {
+    "title": "Booking System",
+    "description": "Proyecto desarrollado con más de 70 personas en el que me encargué de desarrollar y probar interfaces utilizandp ReactJS, CSS, NextJS, Javascript, Figma, Jest y Enzime siguiendo la metodología SCRUM",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/Platzi-Master-C9/booking-ui"
+      }
+    ],
+    "technologies": [
+      "HTML",
+      "CSS Modules",
+      "Javascript",
+      "Jest",
+      "ReactJS",
+      "Figma",
+      "NextJS"
+    ]
+  },
+  {
+    "title": "Portafolio",
+    "description": "Desarrollé mi portafolio utilizando ReactJS y Figma para la maquetación, Redux para almacenar los posts traidos de Medium y React Router para navegar en la app",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/emanuelalvaradog"
+      },
+      { "name": "Demo", "path": "https://emanuelalvarado.com/" }
+    ],
+    "technologies": [
+      "HTML",
+      "CSS Modules",
+      "Javascript",
+      "Jest",
+      "ReactJS",
+      "Figma",
+      "NextJS"
+    ]
+  },
+  {
+    "title": "Rappi Clone",
+    "description": "Hice un clon responsive de la versión antigua de la landing page de Rappi con HTML y CSS",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/rappi-clone"
+      },
+      {
+        "name": "Demo",
+        "path": "https://emanuelalvaradog.github.io/rappi-clone/"
+      }
+    ],
+    "technologies": [
+      "HTML",
+      "CSS Modules",
+      "Javascript",
+      "Jest",
+      "ReactJS",
+      "Figma",
+      "NextJS"
+    ]
+  },
+  {
+    "title": "Budget App",
+    "description": "Aplicación web con HTML, CSS y Javascript que ayuda a llevar un registro de gastos e ingresos",
+    "links": [
+      {
+        "name": "Github",
+        "path": "https://github.com/emanuelalvaradog/simple-budget-app"
+      },
+      {
+        "name": "Demo",
+        "path": "https://emanuelalvaradog.github.io/simple-budget-app/"
+      }
+    ],
+    "technologies": [
+      "HTML",
+      "CSS Modules",
+      "Javascript",
+      "Jest",
+      "ReactJS",
+      "Figma",
+      "NextJS"
+    ]
+  }
+]

@@ -27,8 +27,14 @@
   }
 }
 
+@media(min-width: 1024px) {
+  .main {
+    width: 70%;
+  }
+}
+
 @media(min-width: 1280px) {
   .main {
-    width: 50%;
+    width: 55%;
   }
 }

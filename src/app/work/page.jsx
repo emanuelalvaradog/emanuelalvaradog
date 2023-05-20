@@ -2,17 +2,7 @@
 
 import { Navbar, ProjectCard, SocialMedia } from "@/components";
 import styles from "@/styles/projects.module.scss";
-
-const sampleProject = {
-  title: "Naptic",
-  description:
-    "Naptic es una plataforma que permite a los usuarios crear y compartir sus propios cursos de manera gratuita.",
-  technologies: ["NextJS", "Firebase", "TailwindCSS", "Stripe", "FastAPI"],
-  links: [
-    { name: "Github", path: "https://github.com/emanuelalvaradog" },
-    { name: "Demo", path: "https://naptic.vercel.app" },
-  ],
-};
+import projects from "/projects.json";
 
 export default function page() {
   return (
@@ -32,10 +22,9 @@ export default function page() {
       </div>
       <hr />
       <section className={styles.projects}>
-        <ProjectCard {...sampleProject} />
-        <ProjectCard {...sampleProject} />
-        <ProjectCard {...sampleProject} />
-        <ProjectCard {...sampleProject} />
+        {projects.map((project) => (
+          <ProjectCard {...project} key={project.title} />
+        ))}
       </section>
       <SocialMedia />
     </section>

@@ -9,7 +9,8 @@ export const metadata = {
     default: "Emanuel Alvarado @emanuelalvaradog",
     template: "%s | Emanuel Alvarado",
   },
-  description: "Apasionado por ",
+  description:
+    "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
   openGraph: {
     title: "Emanuel Alvarado @emanuelalvaradog",
     description: "Developer, writer, and creator.",

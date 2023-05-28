@@ -1,11 +1,7 @@
 import Image from "next/image";
 import styles from "./bio.module.scss";
 
-const desc = [
-  "Vivo mis días buscando crear memorias nuevas y estoy diseñando una vida que me ayude a lograr mi misión: impactar la vida de millones a través de la tecnología",
-];
-
-export function Bio({ description = desc, content = [] }) {
+export function Bio({ children }) {
   return (
     <section className={styles.bio}>
       <Image
@@ -22,20 +18,10 @@ export function Bio({ description = desc, content = [] }) {
           <h1>Emanuel Alvarado</h1>
           <div className={styles.bioContentDescP}>
             <p>
-              Hola, soy Emanuel. Un generalista apasionado por la tecnología, el
-              aprendizaje y las startups.
+              Hola, soy Emanuel Alvarado. Un generalista apasionado por la
+              tecnología, el aprendizaje y la creación.
             </p>
-            {description.map((content, index) => (
-              <p key={index}>{content}</p>
-            ))}
-            {content.length > 0 && (
-              <>
-                <hr />
-                {content.map((content, index) => (
-                  <p key={index}>{content}</p>
-                ))}
-              </>
-            )}
+            {children}
           </div>
         </div>
       </div>

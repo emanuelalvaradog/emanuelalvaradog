@@ -1,6 +1,5 @@
 import { allPosts } from "contentlayer/generated";
 import styles from "@/styles/blogPost.module.scss";
-import { useMDXComponent } from "next-contentlayer/hooks";
 import { Mdx, SocialMedia } from "../../../components";
 
 export const generateStaticParams = async () =>

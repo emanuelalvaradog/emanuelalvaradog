@@ -9,7 +9,7 @@ export const metadata = {
     default: "Emanuel Alvarado @emanuelalvaradog",
     template: "%s | Emanuel Alvarado",
   },
-  description: "Developer, writer, and creator.",
+  description: "Apasionado por ",
   openGraph: {
     title: "Emanuel Alvarado @emanuelalvaradog",
     description: "Developer, writer, and creator.",
@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={inter.className}>
-        <Navbar />
+        <Navbar className={"navbar"} />
         <main>{children}</main>
       </body>
     </html>

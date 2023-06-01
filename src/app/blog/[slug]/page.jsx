@@ -23,13 +23,25 @@ export const generateMetadata = ({ params }) => {
       type: "article",
       publishedTime: publishedAt,
       url: `https://emanuelalvarado.com/blog/${params.slug}`,
-      images: [{ url: ogImage }],
+      images: [
+        {
+          url: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
+          width: 1920,
+          height: 1080,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description: summary,
-      images: ["https://emanuelalvarado.com/emanuelalvarado.jpeg"],
+      images: [
+        {
+          url: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
+          width: 1920,
+          height: 1080,
+        },
+      ],
     },
   };
 };

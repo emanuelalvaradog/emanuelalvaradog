@@ -5,7 +5,7 @@ import styles from "@/styles/blog.module.scss";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allPosts, Post } from "contentlayer/generated";
 
-export const generateMetadata = () => {
+export const generateMetadata = ({ params }) => {
   return {
     title: "Blog de Emanuel Alvarado",
     description:

@@ -29,7 +29,7 @@ export const generateMetadata = ({ params }) => {
       card: "summary_large_image",
       title,
       description: summary,
-      images: [ogImage],
+      images: ["https://emanuelalvarado.com/emanuelalvarado.jpeg"],
     },
   };
 };

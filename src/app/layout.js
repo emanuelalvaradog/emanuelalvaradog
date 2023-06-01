@@ -9,11 +9,18 @@ export const metadata = {
     default: "Emanuel Alvarado @emanuelalvaradog",
     template: "%s | Emanuel Alvarado",
   },
-  description:
-    "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
+  description: {
+    default:
+      "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
+    blog: "Mi camino hacia una vida de impacto: pensamientos y aprendizajes.",
+  },
   openGraph: {
     title: "Emanuel Alvarado @emanuelalvaradog",
-    description: "Developer, writer, and creator.",
+    description: {
+      default:
+        "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
+      blog: "Mi camino hacia una vida de impacto: pensamientos y aprendizajes.",
+    },
     url: "https://emanuelalvarado.com",
     siteName: "Emanuel Alvarado",
     images: [

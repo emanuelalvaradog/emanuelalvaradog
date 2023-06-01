@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import { PostPreview, SocialMedia } from "@/components";
 import styles from "@/styles/blog.module.scss";
@@ -64,7 +64,6 @@ export default function page() {
         <hr />
         <section className={styles.posts}>
           {posts.map((post) => {
-            console.log({ post });
             return <PostPreview key={post.title} {...post} />;
           })}
         </section>

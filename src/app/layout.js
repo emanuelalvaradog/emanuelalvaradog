@@ -41,6 +41,7 @@ export const metadata = {
   twitter: {
     title: "Emanuel Alvarado",
     card: "summary_large_image",
+    image: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
   },
   icons: {
     shortcut: "/favicon.ico",

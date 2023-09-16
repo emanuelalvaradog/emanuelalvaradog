@@ -1,6 +1,6 @@
 import { allPosts } from "contentlayer/generated";
 import styles from "@/styles/blogPost.module.scss";
-import { Mdx, SocialMedia } from "../../../components";
+import { Mdx, SocialMedia, Subscribe } from "../../../components";
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
@@ -59,6 +59,7 @@ export default function PostLayout({ params }) {
       </div>
       <hr />
       <Mdx code={post.body.code} />
+      <Subscribe type={"post"} />
       <SocialMedia />
     </article>
   );

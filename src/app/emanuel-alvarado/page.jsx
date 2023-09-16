@@ -10,14 +10,11 @@ export default function About() {
       <div className={styles.mainContent}>
         <Bio>
           <p>
-            Soy fundador y líder de un equipo de robótica llamado{" "}
-            <Link href="https://hiteamgenesis.com">Génesis</Link> conformado por
-            más de 30 estudiantes de distintas universidades públicas de México.
-          </p>
-          <p>
-            Actualmente estoy fundando una startup llamada{" "}
-            <Link href="https://naptic.app">Naptic</Link> que ayuda a equipos de
-            trabajo a ser más eficientes con ayuda de IA.
+            Soy co-fundador y líder de{" "}
+            <Link href="https://hiteamgenesis.com">Génesis</Link>, un equipo de
+            robótica construyendo un rover conformado por estudiantes
+            universitarios con la misión de inspirar a jóvenes a construir cosas
+            que jamás creyeron posibles.
           </p>
           <hr />
           <p>
@@ -28,11 +25,6 @@ export default function About() {
             Me encanta leer y escuchar podcasts. Creo que es una gran forma de
             aprender de los demás y de tener una perspectiva más amplia de
             cualquier tema.
-          </p>
-          <p>
-            Siempre he sido una persona muy curiosa lo que me ha llevado a tener
-            intereses muy variados. Desde marketing y negocios hasta medicina y
-            sociología.
           </p>
           <p>
             Estoy seguro de que podemos tener una conversación increíble

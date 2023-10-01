@@ -1,13 +1,12 @@
 import { PostPreview, SocialMedia } from "@/components";
 import styles from "@/styles/blog.module.scss";
-import { compareDesc, format, parseISO } from "date-fns";
+import { compareDesc } from "date-fns";
 import { allPosts, Post } from "contentlayer/generated";
 import { Subscribe } from "../../components/Subscribe/Subscribe";
 
 export default function page() {
   const posts = allPosts.sort((a, b) =>
-    compareDesc(parseISO(a.date), parseISO(b.date))
-  );
+    compareDesc(new Date(a.publishedAt), new Date(b.publishedAt)));
 
   return (
     <section className={styles.main}>

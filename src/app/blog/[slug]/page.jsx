@@ -59,7 +59,7 @@ export default function PostLayout({ params }) {
       </div>
       <hr />
       <Mdx code={post.body.code} />
-      <Subscribe type={"post"} />
+     {/* <Subscribe type={"post"} /> */}
       <SocialMedia />
     </article>
   );

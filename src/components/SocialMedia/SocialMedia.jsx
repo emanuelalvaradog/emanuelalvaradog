@@ -5,7 +5,7 @@ export function SocialMedia() {
   return (
     <footer className={styles.social}>
       {/* IG */}
-      <Link href="https://www.instagram.com/emanuelalvaradog/">
+      <Link href="https://www.instagram.com/emalvaradog/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
@@ -17,7 +17,7 @@ export function SocialMedia() {
       </Link>
 
       {/* TWITTER */}
-      <Link href="https://twitter.com/emanuealvaradog/">
+      <Link href="https://twitter.com/emalvaradog/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
@@ -41,7 +41,7 @@ export function SocialMedia() {
       </Link>
 
       {/* GITHUB */}
-      <Link href="https://github.com/emanuelalvaradog/">
+      <Link href="https://github.com/emalvaradog/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"

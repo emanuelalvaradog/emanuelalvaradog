@@ -6,13 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Emanuel Alvarado @emanuelalvaradog",
+    default: "Emanuel Alvarado @emalvaradog",
     template: "%s | Emanuel Alvarado",
   },
   description:
     "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
   openGraph: {
-    title: "Emanuel Alvarado @emanuelalvaradog",
+    title: "Emanuel Alvarado @emalvaradog",
     description:
       "Generalista apasionado por la tecnología, el aprendizaje y la creación.",
     url: "https://emanuelalvarado.com",

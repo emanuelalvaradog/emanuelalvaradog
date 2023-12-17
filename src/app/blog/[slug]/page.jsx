@@ -1,6 +1,7 @@
 import { allPosts } from "contentlayer/generated";
 import styles from "@/styles/blogPost.module.scss";
 import { Mdx, SocialMedia, Subscribe } from "../../../components";
+import "/src/styles/highlight-js/atom-one-dark.css";
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
@@ -8,7 +9,7 @@ export const generateStaticParams = async () =>
 export const generateMetadata = ({ params }) => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
 
-  const { title, publishedAt, summary } = post;
+  const { title, publishedAt, brief } = post;
 
   const ogImage = "";
 
@@ -16,10 +17,10 @@ export const generateMetadata = ({ params }) => {
 
   return {
     title,
-    description: summary,
+    description: brief,
     openGraph: {
       title,
-      description: summary,
+      description: brief,
       type: "article",
       publishedTime: publishedAt,
       url: `https://emanuelalvarado.com/blog/${params.slug}`,
@@ -34,7 +35,7 @@ export const generateMetadata = ({ params }) => {
     twitter: {
       card: "summary_large_image",
       title,
-      description: summary,
+      description: brief,
       images: [
         {
           url: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
@@ -54,12 +55,12 @@ export default function PostLayout({ params }) {
     <article className={styles.main}>
       <div className={styles.mainHeader}>
         <h1>{post.title}</h1>
-        <p>{post.summary}</p>
+        <p>{post.brief}</p>
         <time dateTime={post.publishedAt}></time>
       </div>
       <hr />
       <Mdx code={post.body.code} />
-     {/* <Subscribe type={"post"} /> */}
+      {/* <Subscribe type={"post"} /> */}
       <SocialMedia />
     </article>
   );

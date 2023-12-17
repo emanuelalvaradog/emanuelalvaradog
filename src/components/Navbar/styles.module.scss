@@ -1,4 +1,4 @@
-.navActive {
+.nav a {
   font-weight: 700;
 }
 
@@ -10,14 +10,11 @@
 
   a {
    font-size: 1.6rem; 
+   font-weight: 300;
   }
 
-  &Active {
+  a .active {
     font-weight: 700;
-  }
-
-  &Link {
-    font-weight: 300;
   }
 }
 

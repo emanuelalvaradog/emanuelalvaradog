@@ -1,6 +1,7 @@
 import { useMDXComponent } from "next-contentlayer/hooks";
 import Image from "next/image";
 import Link from "next/link";
+import "/src/styles/highlight-js/atom-one-dark.css";
 
 function customLink(props) {
   const { href } = props;

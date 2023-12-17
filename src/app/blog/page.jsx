@@ -6,7 +6,8 @@ import { Subscribe } from "../../components/Subscribe/Subscribe";
 
 export default function page() {
   const posts = allPosts.sort((a, b) =>
-    compareDesc(new Date(a.publishedAt), new Date(b.publishedAt)));
+    compareDesc(new Date(a.publishedAt), new Date(b.publishedAt))
+  );
 
   return (
     <section className={styles.main}>

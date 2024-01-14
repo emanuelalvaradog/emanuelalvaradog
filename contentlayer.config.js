@@ -31,7 +31,7 @@ export default makeSource({
     remarkPlugins: [],
     rehypePlugins: [
       rehypeHighlight,
-      { languages: { js: langJs, py: langJs, go: langGo } },
+      { languages: { js: langJs, py: langPy, go: langGo } },
     ],
   },
 });

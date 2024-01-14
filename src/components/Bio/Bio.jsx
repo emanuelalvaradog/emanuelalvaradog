@@ -5,10 +5,10 @@ export function Bio({ children }) {
   return (
     <section className={styles.bio}>
       <Image
-        src="/emanuelalvarado.jpeg"
+        src="/emanuel-alvarado.jpeg"
         alt="emanuel alvarado"
         placeholder="blur"
-        blurDataURL="/emanuelalvarado.jpeg"
+        blurDataURL="/emanuel-alvarado.jpeg"
         width={100}
         height={100}
         style={{ borderRadius: "50%" }}

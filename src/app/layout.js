@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Emanuel Alvarado",
     images: [
       {
-        url: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
+        url: "https://emanuelalvarado.com/emanuel-alvarado.jpeg",
         width: 1920,
         height: 1080,
       },
@@ -41,7 +41,7 @@ export const metadata = {
   twitter: {
     title: "Emanuel Alvarado",
     card: "summary_large_image",
-    image: "https://emanuelalvarado.com/emanuelalvarado.jpeg",
+    image: "https://emanuelalvarado.com/emanuel-alvarado.jpeg",
   },
   icons: {
     shortcut: "/favicon.ico",

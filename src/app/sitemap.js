@@ -14,7 +14,7 @@ export default function sitemap() {
     };
   });
 
-  const lastBlogPost = blogPosts[blogPosts.length - 1];
+  const lastBlogPost = blogPosts[0];
 
   const pages = [
     {

@@ -62,13 +62,3 @@
   
 </div>
 <br>
-<hr>
-
-<h2 align="center">🎵 Listend lately 🎵</h2>
-  <a href="https://open.spotify.com/user/31nuf4qhddbxdtkq6des33i5t2rm" >
-    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" />
-  </a>
-  <br>
-  <a href="#">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31nuf4qhddbxdtkq6des33i5t2rm&cover_image=true&theme=novatorem&bar_color=714eb1&bar_color_cover=false" />
-  </a>

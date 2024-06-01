@@ -3,7 +3,7 @@
 
 <h2 align="center">👨‍💻 About me 👨‍💻</h2> 
 <br>
-<p align="center">I am a software developer passionate about learning and teamwork. I am a true believer that technology is the best way to create change in our society. My goal is to change the lives of millions of people by creating technological solutions to major problems in Latin America. <br> <br> If we can inject the spark in others to generate a change, little by little we will improve as a whole. And when you have a team of people aligned to the same goal the results will be greater than expected.</p>
+<p align="center">I am a full-stack developer and product designer with experience leading multidisciplinary teams. I am a true believer that technology is the best way to create change in our society. My goal is to change the lives of millions of people by creating technological solutions to major problems in Latin America. <br> <br> If we can inject the spark in others to generate a change, little by little we will improve as a whole. And when you have a team of people aligned to the same goal the results will be greater than expected.</p>
 <br>
 
 <div align="center">

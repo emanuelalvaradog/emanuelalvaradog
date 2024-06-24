@@ -16,11 +16,12 @@ export function Bio({ children }) {
       <div className={styles.bioContent}>
         <div className={styles.bioContentDesc}>
           <h1>Emanuel Alvarado</h1>
+          <p>Full-Stack Developer & Product Designer</p>
           <div className={styles.bioContentDescP}>
             <p>
               Hola, soy Emanuel Alvarado. Un apasionado por la tecnología y por
-              cómo podemos convertirnos en nuestra mejor versión para impactar
-              en los demás.
+              su poder transformador en nuestras vidas y en el mundo que nos
+              rodea.
             </p>
             {children}
           </div>

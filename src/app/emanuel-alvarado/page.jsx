@@ -9,7 +9,7 @@ export default function About() {
     <section className={styles.main}>
       <div className={styles.mainContent}>
         <Bio>
-          <p>
+          {/* <p>
             Soy co-fundador y líder de{" "}
             <Link href="https://hiteamgenesis.com">Génesis</Link>, un equipo de
             robótica construyendo un rover conformado por estudiantes
@@ -20,7 +20,7 @@ export default function About() {
           <p>
             Fuera de la tecnología me gusta la fotografía, tocar el piano, el
             karting, la música electrónica y conocer personas.
-          </p>
+          </p> */}
           <p>
             Me encanta leer y escuchar podcasts. Creo que es una gran forma de
             aprender de los demás y de tener una perspectiva más amplia de
